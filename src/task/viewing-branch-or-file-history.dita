@@ -2,15 +2,27 @@
 <task id="viewing_branch_history" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Viewing the history of a branch or file</title>
-    <shortdesc></shortdesc>
+    <shortdesc>At some point in the development cycle, you may want to see exactly when and by whom
+        specific changes were introduced. To open the <wintitle>Git History</wintitle> view for a
+        branch or a file, use the <uicontrol>Show current branch history</uicontrol>, the
+            <uicontrol>Show history</uicontrol>, or the <uicontrol>Show blame</uicontrol>
+        actions.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
-        <steps>
+        <steps-unordered>
             <step>
-                <cmd></cmd>
+                <cmd>To view the history of the entire branch, in the <wintitle>Git
+                        Staging</wintitle> view toolbar, click <uicontrol>Show current branch
+                        history</uicontrol> button.</cmd>
             </step>
-        </steps>
+            <step>
+                <cmd>To view the history for a specific file, right-click a staged or an unstaged
+                    file and select <uicontrol>Show history</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>To view the history for a specific file with line-by-line change highlighting,
+                    right-click a staged or an unstaged file and select <uicontrol>Show
+                        blame</uicontrol>.</cmd>
+            </step>
+        </steps-unordered>
     </taskbody>
 </task>
