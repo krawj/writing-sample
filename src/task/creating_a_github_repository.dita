@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="creating_a_github_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Setting up a Repository in <ph keyref="devPlatform"/></title>
+    <abstract>
+        <shortdesc/>
+    </abstract>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Sign in to <ph keyref="devPlatform"/> with your user name or email address,
+                    and password.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Repositories</wintitle> section of your account dashboard,
+                    click <uicontrol>New</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter a name and, optionally, a description for the repository.</cmd>
+            </step>
+            <step>
+                <cmd>Decide whether you want to make the repository private or public by selecting
+                    the appropriate radio button.</cmd>
+                <info>
+                    <note>Unless you want to start an open source project that anyone can access and
+                        contribute to, it is generally recommended that you make your new repository
+                        private.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol>Initialize this repository with a README</uicontrol>
+                    check box and click <uicontrol>Create repository</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Get the SSH URL by clicking <menucascade>
+                        <uicontrol>Clone or download</uicontrol>
+                        <uicontrol>Copy to clipboard</uicontrol>
+                    </menucascade>.</cmd>
+                <info>
+                    <image keyref="img-github-clone-download" placement="break"
+                        id="image_ugh_ymc_llb" scalefit="yes"/>
+                </info>
+            </step>
+            <step>
+                <cmd>In a terminal, navigate to the target location where you want to clone your new
+                    repository by using the <cmdname>cd</cmdname> command.</cmd>
+                <stepxmp>To clone the repository to the Documents folder on Windows, enter the
+                    following
+                    command:<pre><userinput>cd %USERPROFILE%\Documents</userinput></pre></stepxmp>
+            </step>
+            <step>
+                <cmd>Clone the repository by entering the <cmdname>git clone</cmdname> command with
+                    the SSH URL that you copied:</cmd>
+                <info>
+                    <pre>git clone <varname>sshURL</varname></pre>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

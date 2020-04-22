@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="installing_git" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Setting up <ph keyref="scm"/> on Windows</title>
+    <shortdesc>Before installing the <ph keyref="scmAddonView"/> add-on in <ph keyref="xmlEditor"/>,
+        you must download, install, and perform a basic configuration of <ph keyref="scm"/>. If <ph
+            keyref="scm"/> is already installed on your computer, you can skip this
+        task.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <xref keyref="vc-url"/> and select <uicontrol>Windows</uicontrol>.</cmd>
+                <stepresult>The download of the installer file starts automatically. Depending on
+                    your browser's settings, you may need to confirm the download.</stepresult>
+            </step>
+            <step>
+                <cmd>From your Downloads folder, launch the <ph keyref="scm"/> installation wizard
+                    and complete the process by following the instructions on the screen.</cmd>
+            </step>
+            <step>
+                <cmd>When the installation is completed, on the <wintitle>Completing the Git Setup
+                        Wizard</wintitle> page, select the <uicontrol>Launch Git Bash</uicontrol>
+                    check box, and click <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the Git Bash terminal window, configure your <ph keyref="scm"/> user name
+                    and email address, substituting the variables with your <ph keyref="devPlatform"
+                    /> credentials:</cmd>
+                <info>
+                    <pre>git config --global --user.name="<varname>First Name</varname> <varname>Last Name</varname>"
+git config --global --user.email="<varname>email@example.com</varname>"</pre>
+                </info>
+            </step>
+            <step>
+                <cmd>Verify that your name and email were set correctly by listing the user
+                    configuration settings:</cmd>
+                <info>
+                    <pre>git config --list | grep "user"</pre>
+                </info>
+                <stepxmp>Example
+                    output:<pre>$ git config --list | grep "user"
+user.name=John Doe
+user.email=john.doe@email.com
+</pre></stepxmp>
+            </step>
+        </steps>
+        <result id="result_zvd_1lh_llb">You now have a basic configuration and can install </result>
+    </taskbody>
+</task>

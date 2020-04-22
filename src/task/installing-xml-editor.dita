@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="installing_oxygen_author" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Installing the <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/></title>
+    <abstract>The <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/> provides a graphical
+        interface to make interacting with <ph keyref="scm"/> repositories easier than using the
+        command line.<shortdesc>Use <ph keyref="xmlEditor"/>'s built-in add-on manager to install
+            the <ph keyref="scmAddon"/> add-on.</shortdesc></abstract>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Launch <ph keyref="xmlEditor"/> and, from the main menu, select <menucascade>
+                        <uicontrol>Help</uicontrol>
+                        <uicontrol>Install new add-ons</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>From the <uicontrol>Show add-ons from</uicontrol> drop-down, select
+                        <uicontrol>Default Update Site</uicontrol> and wait for the list of
+                    available add-ons to populate.</cmd>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol keyref="scmAddon"/> check box and click
+                        <uicontrol>Next</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>If a warning against connecting to an unknown host appears, click
+                        <uicontrol>Allow and remember</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>On the <wintitle>License and signature</wintitle> page, select the <uicontrol>I
+                        accept all terms of the end user license agreement</uicontrol> check box and
+                    click <uicontrol>Install</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>When the installation is completed, restart <ph keyref="xmlEditor"/>.</cmd>
+                <stepresult>When you restart the application, the <wintitle keyref="scmAddonView"/>
+                    view appears on top of your editor window.</stepresult>
+            </step>
+            <step>
+                <cmd>If the <wintitle keyref="scmAddonView"/> view does not appear, open it from the
+                    main menu by selecting <menucascade>
+                        <uicontrol>Window</uicontrol>
+                        <uicontrol>Show View</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+        </steps>
+        <result id="result_ifp_ydd_llb">You can now perform the most critical interactions with
+            local and remote <ph keyref="scm"/> repositories without leaving <ph keyref="xmlEditor"
+            />.</result>
+    </taskbody>
+</task>

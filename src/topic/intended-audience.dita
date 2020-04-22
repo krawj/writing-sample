@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="intended_audience" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:topic.xsd">
+    <title>Introduction</title>
+    <abstract>
+        <p>As the docs as code content development model becomes increasingly popular across the
+            technical writing community, many organizations choose distributed version control
+            systems over proprietary CCMS solutions to manage their documentation base. This
+            approach lets them work more closely with product development teams by offering </p>
+        <shortdesc>This document provides basic instructions on integrating a <ph keyref="scm"/>
+            workflow with <ph keyref="xmlEditor"/>.</shortdesc>
+    </abstract>
+    <body>
+        <p>This document is primarily intended for technical writers with experience in XML-based
+            documentation formats such as DITA or DocBook, experience with <ph keyref="xmlEditor"/>,
+            and at least basic working knowledge of <ph keyref="scm"/>.</p>
+    </body>
+</topic>

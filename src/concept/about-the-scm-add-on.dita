@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="about_the_scm_add_on" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+    <title>About the <ph keyref="scmAddon"/> add-on</title>
+    <abstract>
+        <shortdesc>The <ph keyref="scmAddon"/> add-on provides a basic <ph keyref="scm"/> interface
+            to <ph keyref="xmlEditor"/>.</shortdesc>
+        <note>The add-on requires <ph keyref="xmlEditor"/> version 20.1 or later.</note>
+    </abstract>
+    <conbody>
+        <p>The <ph keyref="scmAddon"/> add-on supports cloning repositories, staging and committing
+            locally, pushing changes to remote repositories, pulling updates from remote branches,
+            using submodues, previewing the history of a branch, and resolving merge conflicts.</p>
+        <p>You can use the <ph keyref="scmAddon"/> add-on by means of the <ph keyref="scmAddonView"
+            /> view available in <ph keyref="xmlEditor"/>'s Author Mode. For more information about
+            Author Mode views, see the <xref keyref="oxygenAuthorViews" format="html"
+                scope="external"/> topic.</p>
+    </conbody>
+</concept>

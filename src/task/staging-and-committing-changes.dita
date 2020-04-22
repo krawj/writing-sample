@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="staging_and_committing_changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Staging and committing changes</title>
+    <abstract>
+        <p>As soon as you start making changes to the content of your repository, <ph keyref="scm"/>
+            marks those changes as either untracked or unstaged. You can use the <ph
+                keyref="scmAddonView"/> view to stage and commit such changes to the local
+            repository.</p>
+    </abstract>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>In the <wintitle>Unstaged or untracked files</wintitle> area, choose the
+                    changes that you want to stage by performing one of the following actions:</cmd>
+                <choices id="choices_ulh_4j3_llb">
+                    <choice>To stage all the listed files, click <uicontrol>Stage
+                        All</uicontrol>.</choice>
+                    <choice>To stage one or more files selectively, select the file or files and
+                        click <uicontrol>Stage Selected</uicontrol>.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Commit message</wintitle> area, use the text box to provide a
+                    meaningful commit message or use the drop-down list to choose a previously used
+                    commit.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Commit</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="getting_updates_from_the_remote_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Getting updates from the remote repository</title>
+    <abstract>
+        <shortdesc>When other writers on your team publish their changes remotely, the branch you
+            checked out locally can quickly become out-of-date. To pull the latest updates from the
+            upstream branch, use the <uicontrol>Pull</uicontrol> action in the <ph
+                keyref="scmAddonView"/> view toolbar.</shortdesc>
+        <p>The <ph keyref="scmAddon"/> add-on supports pulling from remote branches using either the
+            pull and merge or the pull and rebase strategy. The default <ph keyref="scm"/> pull
+            strategy is pull and merge. </p>
+    </abstract>
+    <taskbody>
+        <prereq id="prereq_sr3_qd3_llb">
+            <p>Make sure that the current working copy is set to an initialized <ph keyref="scm"/>
+                repository.</p>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>In the the <ph keyref="scmAddonView"/> view toolbar, perform one of the
+                    following actions:</cmd>
+                <choices id="choices_gmz_t43_llb">
+                    <choice>To pull from the upstream branch using the default strategy, click the
+                            <uicontrol>Pull</uicontrol> icon.</choice>
+                    <choice>To choose the pull strategy, click the down arrow next to the
+                            <uicontrol>Pull</uicontrol> icon and select either <uicontrol>Pull
+                            (merge)</uicontrol> or <uicontrol>Pull (rebase)</uicontrol>.</choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>
