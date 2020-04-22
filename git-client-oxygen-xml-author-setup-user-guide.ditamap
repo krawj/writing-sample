@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:bookmap.xsd" linking="none">
+    <booktitle>
+        <mainbooktitle><ph keyref="scmAddon"/> for <ph keyref="xmlEditor"/></mainbooktitle>
+        <booktitlealt>Setup and User Guide</booktitlealt>
+    </booktitle>
+    <frontmatter>
+        <mapref href="src/keys.ditamap"/>
+        <booklists>
+            <toc/>
+        </booklists>
+        <topicref href="src/topic/intended-audience.dita"/>
+    </frontmatter>
+    <chapter href="src/overview-of-the-git-client-add-on.ditamap" format="ditamap"/>
+    <chapter href="src/getting_started.ditamap" format="ditamap"/>
+    <chapter href="src/using-the-git-staging-addon.ditamap" format="ditamap"/>
+</bookmap>
