@@ -8,7 +8,8 @@
         <topicref href="task/getting-updates-from-the-remote-repository.dita"/>
         <topicref href="task/staging-and-committing-changes.dita"/>
         <topicref href="task/pushing-changes-to-the-remote-repository.dita"/>
-        <topicref href="task/viewing-branch-history.dita"/>
+        <topicref href="task/discarding-your-changes.dita"/>
+        <topicref href="task/viewing-branch-or-file-history.dita"/>
         <topicref href="task/resolving-conflicts.dita"/>
     </topicref>
 </map>
