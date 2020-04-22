@@ -3,11 +3,15 @@
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Switching branches</title>
     <abstract>
-        <shortdesc/>
-        <note type="notice">You cannot change to a different branch if the current branch has any
+        <shortdesc>If you want to work on topics and maps in a different branch, use the
+                <uicontrol>Change Branch</uicontrol> action in the <ph keyref="scmAddonView"/> view
+            toolbar.</shortdesc>
+        <note type="notice">You cannot switch to a different branch if the current branch has any
             unstaged modifications.</note>
     </abstract>
     <taskbody>
+        <prereq id="prereq_jxz_jqk_llb">If the current branch has any unstaged changes, commit your
+            modifications or discard them entirely.</prereq>
         <steps>
             <step>
                 <cmd>In the <ph keyref="scmAddonView"/> view toolbar, click the <uicontrol>Change
