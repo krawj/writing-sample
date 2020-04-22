@@ -2,12 +2,9 @@
 <task id="staging_and_committing_changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Staging and committing changes</title>
-    <abstract>
-        <p>As soon as you start making changes to the content of your repository, <ph keyref="scm"/>
-            marks those changes as either untracked or unstaged. You can use the <ph
-                keyref="scmAddonView"/> view to stage and commit such changes to the local
-            repository.</p>
-    </abstract>
+    <shortdesc><ph keyref="scm"/> keeps track of all the changes you make to the content of your
+        local repository. You can use the <ph keyref="scmAddonView"/> view to stage and commit your
+        updates to the local repository.</shortdesc>
     <taskbody>
         <steps>
             <step>
@@ -29,5 +26,9 @@
                 <cmd>Click <uicontrol>Commit</uicontrol>.</cmd>
             </step>
         </steps>
+        <result id="result_zcz_vrk_llb">
+            <p>The numbered indicator on the <uicontrol>Push</uicontrol> icon is incremented and you
+                can now publish your commit in the remote repository.</p>
+        </result>
     </taskbody>
 </task>
