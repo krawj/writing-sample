@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="discarding_your_changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Discarding your changes</title>
+    <shortdesc>If you decide that one or more of the modifications you made should be discarded, use
+        the <uicontrol>Discard</uicontrol> action available in the context menu.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>In the <wintitle>Git Staging</wintitle> view, select the file or files with the
+                    modifications that you want to discard.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click the selected files and click <uicontrol>Discard</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Confirm your choice by clicking <uicontrol>Yes</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_fmk_qxk_llb">Discarding changes in tracked file reverts it to its
+            previous state. Discarding an untracked file deletes it from your project
+            directory.</result>
+    </taskbody>
+</task>
