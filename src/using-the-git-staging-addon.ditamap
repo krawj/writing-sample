@@ -3,6 +3,7 @@
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
     <title>Using the Git Staging Addon</title>
     <topicref href="task/using-the-git-staging-add-on.dita">
+        <topicref href="task/selecting-your-repository-as-a-working-copy.dita"/>
         <topicref href="task/cloning-a-repository.dita"/>
         <topicref href="task/switching-branches.dita"/>
         <topicref href="task/getting-updates-from-the-remote-repository.dita"/>
