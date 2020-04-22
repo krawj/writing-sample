@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
+    <title>Keys</title>
+    <keydef href="img/github-copy-to-clipboard.png" format="png" keys="img-github-clipboard"/>
+    <keydef href="img/github-clone-download.png" format="png" keys="img-github-clone-download"/>
+    <mapref href="vars/urls.ditamap"/>
+    <mapref href="vars/tools-keys.ditamap"/>
+    <keydef keys="scmAddon">
+        <topicmeta>
+            <keywords>
+                <keyword>Git Client</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="scmAddonView">
+        <topicmeta>
+            <keywords>
+                <keyword>Git Staging</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+</map>
