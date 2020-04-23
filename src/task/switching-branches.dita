@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="switching_branches" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Switching branches</title>
-    <abstract>
-        <shortdesc>If you want to work on topics and maps in a different branch, use the
-                <uicontrol>Change Branch</uicontrol> action in the <ph keyref="scmAddonView"/> view
-            toolbar.</shortdesc>
-        <note type="notice">You cannot switch to a different branch if the current branch has any
-            unstaged modifications.</note>
-    </abstract>
+    <title>Changing the current branch</title>
+    <shortdesc>If you want to work on topics and maps in a different branch, you can select that
+        branch from the <ph keyref="scmAddonView"/> view toolbar.</shortdesc>
     <taskbody>
-        <prereq id="prereq_jxz_jqk_llb">If the current branch has any unstaged changes, commit your
-            modifications or discard them entirely.</prereq>
+        <prereq id="prereq_jxz_jqk_llb">
+            <p>If the current branch has any unstaged changes, commit your modifications or discard
+                them entirely.</p>
+        </prereq>
         <steps>
             <step>
                 <cmd>In the <ph keyref="scmAddonView"/> view toolbar, click the <uicontrol>Change
                         Branch</uicontrol> icon.</cmd>
+                <info><image keyref="imgGitStagingChangeBranch" id="image_f3m_gnq_llb"/></info>
             </step>
             <step>
                 <cmd>In the <wintitle>Select Branch</wintitle> dialog box, select the branch that
                     you want to check out and click <uicontrol>OK</uicontrol>.</cmd>
             </step>
         </steps>
+        <result id="result_wlj_xzq_llb">
+            <p>The selected branch is now checked out in your local repository.</p>
+            <note type="notice">If the files that are currently open in one or more editor tabs do
+                not exist or are in different state in the branch that you selected, <ph
+                    keyref="xmlEditor"/> may prompt you to reload or close the affected tabs.</note>
+        </result>
     </taskbody>
 </task>

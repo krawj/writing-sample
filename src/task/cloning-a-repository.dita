@@ -2,15 +2,14 @@
 <task id="cloning_a_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Cloning a repository</title>
-    <shortdesc>Cloning a repository creates a local copy of a remote repository stored on a shared
-        development platform such as <ph keyref="devPlatform"/>. To clone a remote repository, use
-        the <uicontrol>Clone new repository</uicontrol> action in the <ph keyref="scmAddonView"/>
-        view toolbar.</shortdesc>
+    <shortdesc>Cloning creates a local copy of a remote repository stored on a shared development
+        platform such as <ph keyref="devPlatform"/>. </shortdesc>
     <taskbody>
         <steps>
             <step>
-                <cmd>In the <ph keyref="scmAddonView"/> view toolbar, click <uicontrol>Clone new
-                        repository</uicontrol>.</cmd>
+                <cmd>In the toolbar, click <uicontrol>Clone new repository</uicontrol>.</cmd>
+                <info><image href="../img/git-staging-clone-action.png" id="image_fnd_33q_llb"
+                    /></info>
             </step>
             <step>
                 <cmd>In the Enter the repository URL.</cmd>

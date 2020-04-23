@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
     <title>Using the Git Staging Addon</title>
-    <topicref href="task/using-the-git-staging-add-on.dita">
-        <topicref href="task/selecting-your-repository-as-a-working-copy.dita"/>
+    <topicref href="task/using-the-git-staging-add-on.dita" collection-type="unordered" linking="normal">
         <topicref href="task/cloning-a-repository.dita"/>
         <topicref href="task/switching-branches.dita"/>
+        <topicref href="task/switching-between-working-copies.dita"/>
         <topicref href="task/getting-updates-from-the-remote-repository.dita"/>
         <topicref href="task/staging-and-committing-changes.dita"/>
         <topicref href="task/pushing-changes-to-the-remote-repository.dita"/>

@@ -8,8 +8,8 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>In the <wintitle>Unstaged or untracked files</wintitle> area, choose the
-                    changes that you want to stage by performing one of the following actions:</cmd>
+                <cmd>In the <wintitle>Unstaged files</wintitle> area, choose the changes that you
+                    want to stage by performing one of the following actions:</cmd>
                 <choices id="choices_ulh_4j3_llb">
                     <choice>To stage all the listed files, click <uicontrol>Stage
                         All</uicontrol>.</choice>

@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="selecting_your_repository_as_a_working_copy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Setting Your Repository as a Working Copy in the <ph keyref="scmAddonView"/> View</title>
-    <shortdesc></shortdesc>
+    <title>Selecting a previously used working copy</title>
+    <abstract>
+        <shortdesc>You can select a previously used working copy from the history list.</shortdesc>
+    </abstract>
     <taskbody>
-        <steps>
+        <steps id="steps_t5g_ngl_llb">
             <step>
-                <cmd>In the <ph keyref="scmAddonView"/> view in <ph keyref="xmlEditor"/>, click
-                        <uicontrol>Browse File System</uicontrol> next to the <uicontrol>Working
-                        Copy</uicontrol> drop-down.</cmd>
+                <cmd>Click the <uicontrol>Working copy</uicontrol> drop-down list and select the
+                    working copy that you want to use.</cmd>
             </step>
-            <step>
-                <cmd>In the <wintitle>Choose</wintitle> window, navigate to the clone of the <ph
-                        keyref="devPlatform"/> repository that you created as part of <xref
-                        keyref="settingUpGitHubRepo"/> and click
-                    <uicontrol>Choose</uicontrol>.</cmd>
-            </step>
-            <step>
-                <cmd>In the <wintitle>Connection</wintitle> dialog asking whether to accept and
-                    store the SSH key associated with your <ph keyref="devPlatform"/> account, click
-                        <uicontrol>Yes</uicontrol>.</cmd>
-            </step>
-            <step>
-                <cmd>In the <wintitle>Connection</wintitle> dialog asking whether to create a file
-                    with a list of known hosts, click <uicontrol>Yes</uicontrol>.</cmd>
-            </step>
-            <step>
-                <cmd>In the <wintitle>SSH Passphrase</wintitle> dialog, enter the SSH passphrase you
-                    set up as part of TBD and click <uicontrol>OK</uicontrol>.</cmd>
-            </step>
+            <step/>
         </steps>
     </taskbody>
 </task>

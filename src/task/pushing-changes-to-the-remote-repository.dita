@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="pushing_changes_to_the_remote_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Pushing changes to the remote repository</title>
-    <shortdesc></shortdesc>
+    <title>Pushing commits to the remote repository</title>
+    <shortdesc>If your local branch is set up to track a remote branch and the
+            <uicontrol>Push</uicontrol> button in the <wintitle>Git Staging</wintitle> view toolbar
+        displays a numbered indicator, you can publish your local commits in the remote
+        repository.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
         <steps>
             <step>
-                <cmd></cmd>
+                <cmd>To publish your changes, in the <wintitle>Git Staging</wintitle> view toolbar,
+                    click the <uicontrol>Push to
+                        <varname>remote</varname>/<varname>branch</varname></uicontrol>
+                    button.</cmd>
+                <info><image keyref="imgGitStagingPush" id="image_zpb_jjq_llb"/></info>
             </step>
         </steps>
+        <result id="result_bgf_zzk_llb">
+            <p>If the push was successful, the numbered indicator disappears. This means that your
+                local branch and its remote counterpart are now both up-to-date and other
+                contributors can now pull your updates.</p>
+        </result>
     </taskbody>
 </task>
