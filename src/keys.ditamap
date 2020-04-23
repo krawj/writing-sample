@@ -2,10 +2,74 @@
 <map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
     <title>Keys</title>
-    <keydef href="img/github-copy-to-clipboard.png" format="png" keys="img-github-clipboard"/>
-    <keydef href="img/github-clone-download.png" format="png" keys="img-github-clone-download"/>
-    <mapref href="vars/urls.ditamap"/>
-    <mapref href="vars/tools-keys.ditamap"/>
+    <keydef href="img/github-copy-to-clipboard.png" format="png" keys="imgGitHubClipboard"/>
+    <keydef href="img/github-clone-download.png" format="png" keys="imgGitHubCloneDownload"/>
+    <keydef href="img/git-staging-clone-action.png" keys="imgGitStagingClone" format="png"/>
+    <keydef href="img/git-staging-push-action.png" keys="imgGitStagingPush" format="png"/>
+    <keydef href="img/git-staging-pull-strategy.png" keys="imgGitStagingPullType" format="png"/>
+    <keydef href="img/git-staging-pull-action.png" format="png" keys="imgGitStagingPull"/>
+    <keydef href="img/git-staging-browse-filesystem.png" format="png" keys="imgGitStagingBrowse"/>
+    <keydef href="img/git-staging-change-branch.png" format="png" keys="imgGitStagingChangeBranch"/>
+    <keydef href="img/git-staging-show-branch-history.png" format="png"
+        keys="imgGitStagingBranchHistory"/>
+    <keydef href="img/git-staging-toolbar.png" keys="imgGitStagingToolbar" format="png"/>
+    <keydef href="img/git-staging-staging-area.png" keys="imgGitStaging" format="png"/>
+    <keydef href="img/git-staging-commit-area.png" keys="imgGitStagingCommitArea" format="png"/>
+    <keydef href="img/git-staging-history-view.png" format="png" keys="imgGitHistoryView"/>
+    <keydef href="img/git-hitory-commit-details.png" keys="imgGitHistoryDetails" format="png"/>
+    <keydef href="img/git-hitory-commit-content.png" keys="imgGitHistoryCommitContent" format="png"/>
+    <keydef href="img/git-hitory-commit-log.png" keys="imgGitHistoryLog" format="png"/>
+    <keydef href="https://github.com" format="html" scope="external" keys="url-dev-platform">
+        <topicmeta>
+            <keywords>
+                <keyword>https://github.com</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef href="https://git-scm.com/downloads" format="html" scope="external" keys="urlGitDownloadPage">
+        <topicmeta>
+            <keywords>
+                <keyword>https://git-scm.com/downloads</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html" format="html"
+        scope="external" keys="urlXmlEditorDownloadPage">
+        <topicmeta>
+            <keywords>
+                <keyword>https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef href="https://www.oxygenxml.com/doc/versions/22.0/ug-author/topics/author-views.html"
+        format="html" scope="external" keys="oxygenAuthorViews">
+        <topicmeta>
+            <keywords>
+                <keyword>Author Mode Views</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="devPlatform">
+        <topicmeta>
+            <keywords>
+                <keyword>GitHub</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="xmlEditor">
+        <topicmeta>
+            <keywords>
+                <keyword>&lt;oXygen/&gt; XML Author/Editor/Developer</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="scm">
+        <topicmeta>
+            <keywords>
+                <keyword>Git</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
     <keydef keys="scmAddon">
         <topicmeta>
             <keywords>
