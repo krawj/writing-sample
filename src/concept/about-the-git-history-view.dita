@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="about_the_git_history_view" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+    <title>Git History view</title>
+    <shortdesc>The <wintitle>Git History</wintitle> view displays a complete log of the changes
+        commited to the current branch with detailed information about each commit. Apart from
+        displaying the history of an entire branch, you can also use this view to see the history of
+        a file listed in the staging area.</shortdesc>
+    <conbody>
+        <p>You can open the <wintitle>Git History</wintitle> view by using the <uicontrol>Show
+                current branch history</uicontrol> toolbar action or by selecting the
+                <uicontrol>Show history</uicontrol> and <uicontrol>Show blame</uicontrol> context
+            menu actions in on a file in the staging area.</p>
+        <p>The view is divided into three main panels to provide a clear overview of the history of
+            a branch or a file. By default, the view appears docked to the bottom of the <ph
+                keyref="xmlEditor"/> window.</p>
+        <section id="section_pfp_vvr_llb">
+            <title>Commit log</title>
+            <p>The commit log panel lists all the commits added to the current branch with
+                additional information about the exact date and time when the changes were commited,
+                the author of the commit, and short hash. By default, the log is sorted by date in
+                descending order.</p>
+            <p>If there are uncommited changes, they appear as a separate entry at the top of the
+                list.</p>
+            <fig id="fig_jg1_4xr_llb">
+                <image keyref="imgGitHistoryLog" id="image_qwh_pxr_llb"/>
+            </fig>
+        </section>
+        <section id="section_gcb_xvr_llb">
+            <title>Commit details</title>
+            <p>The commit details panel displays detailed information about the commit that is
+                currently selected in the log.</p>
+            <p>You can use this panel to preview a commit's long hash, its parent commit short hash,
+                the change author's full name and email address, the exact date and time when the
+                commit was added, and the full text of the commit message.</p>
+            <fig id="fig_jrq_2xr_llb">
+                <image keyref="imgGitHistoryDetails" id="image_iyl_2xr_llb"/>
+            </fig>
+        </section>
+        <section id="section_pqc_xwr_llb">
+            <title>Commit content</title>
+            <p/>
+            <fig id="fig_jwz_kxr_llb">
+                <image keyref="imgGitHistoryCommitContent" id="image_izd_lxr_llb"/>
+            </fig>
+        </section>
+    </conbody>
+</concept>

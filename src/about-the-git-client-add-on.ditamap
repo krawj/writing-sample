@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd" linking="none">
+    <title>Overview of the Git Client Add-On</title>
+    <topicref href="concept/about-the-scm-add-on.dita">
+        <topicref href="concept/overview-of-the-git-staging-view.dita"/>
+        <topicref href="concept/about-the-git-history-view.dita"/>
+    </topicref>
+</map>

@@ -3,17 +3,27 @@
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
     <title>About the <ph keyref="scmAddon"/> add-on</title>
     <abstract>
-        <shortdesc>The <ph keyref="scmAddon"/> add-on provides a basic <ph keyref="scm"/> interface
-            to <ph keyref="xmlEditor"/>.</shortdesc>
+        <shortdesc>The <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/> provides a basic
+            graphical interface to interact with <ph keyref="scm"/> repositories, and reduces the
+            amount of context switching between your editor and the <ph keyref="scm"/> command line
+            or another client application.</shortdesc>
         <note>The add-on requires <ph keyref="xmlEditor"/> version 20.1 or later.</note>
     </abstract>
     <conbody>
-        <p>The <ph keyref="scmAddon"/> add-on supports cloning repositories, staging and committing
-            locally, pushing changes to remote repositories, pulling updates from remote branches,
-            using submodues, previewing the history of a branch, and resolving merge conflicts.</p>
-        <p>You can use the <ph keyref="scmAddon"/> add-on by means of the <ph keyref="scmAddonView"
-            /> view available in <ph keyref="xmlEditor"/>'s Author Mode. For more information about
-            Author Mode views, see the <xref keyref="oxygenAuthorViews" format="html"
-                scope="external"/> topic.</p>
+        <p>With the <ph keyref="scmAddon"/> add-on you can:</p>
+        <ul id="ul_g51_pjr_llb">
+            <li>Clone a new repository</li>
+            <li>Stage and commit changes locally</li>
+            <li>Push changes to a remote branch</li>
+            <li>Pull updates from a remote branch</li>
+            <li>Discard unwanted changes</li>
+            <li>Interact with <ph keyref="scm"/> submodules</li>
+            <li>Preview the history of a branch or file</li>
+            <li>Resolve conflicts</li>
+        </ul>
+        <p>When you install the <ph keyref="scmAddon"/> add-on, the <ph keyref="scmAddonView"/> and
+            Git History views become available in Author Mode. For more information about Author
+            Mode views, see the <xref keyref="oxygenAuthorViews" format="html" scope="external"/>
+            help topic.</p>
     </conbody>
 </concept>

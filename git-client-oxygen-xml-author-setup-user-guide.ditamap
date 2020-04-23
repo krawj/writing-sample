@@ -10,9 +10,9 @@
         <booklists>
             <toc/>
         </booklists>
-        <topicref href="src/topic/intended-audience.dita"/>
+        <topicref href="src/concept/about-this-manual.dita"/>
     </frontmatter>
-    <chapter href="src/overview-of-the-git-client-add-on.ditamap" format="ditamap"/>
+    <chapter href="src/about-the-git-client-add-on.ditamap" format="ditamap"/>
     <chapter href="src/getting_started.ditamap" format="ditamap"/>
     <chapter href="src/using-the-git-staging-addon.ditamap" format="ditamap"/>
 </bookmap>

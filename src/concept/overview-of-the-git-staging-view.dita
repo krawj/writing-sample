@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="overview_of_the_git_staging_view" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+    <title><ph keyref="scmAddonView"/> view</title>
+    <shortdesc>The <ph keyref="scmAddonView"/> view consists of several contextually organized
+        sections to help you quickly make use of the most critical <ph keyref="scm"/> features
+        without having to leave <ph keyref="xmlEditor"/>.</shortdesc>
+    <conbody>
+        <section id="section_gzm_x2r_llb">
+            <title>Toolbar</title>
+            <p>The toolbar indicates the currently selected branch and working copy and provides
+                quick access to the most commonly used features. You can use the toolbar elements to
+                check what branch you are currently on, clone a new repository, push and pull
+                changes, change your current branch or working copy, and view the history of a
+                branch or a file.</p>
+            <fig id="fig_dsd_z2r_llb">
+                <image keyref="imgGitStagingToolbar" id="image_j2q_y2r_llb" align="center"/>
+            </fig>
+        </section>
+        <section id="section_lys_x2r_llb">
+            <title>Staging area</title>
+            <p>The staging area is where you can keep track of all the changes on the current branch
+                and decide which of those changes to include in your next commit. Each file listed
+                in this area is supplied with an additional status icons to indicate the type of the
+                change (addition, modification, or deletion).</p>
+            <p>Additionally, the staging area provides per-file context menu actions such as
+                discarding changes, blame, comparison, and conflict resolution options.</p>
+            <fig id="fig_xrf_hfr_llb">
+                <image keyref="imgGitStaging" id="image_ft3_hfr_llb" align="center"/>
+            </fig>
+        </section>
+        <section id="section_ysz_x2r_llb">
+            <title>Commit area</title>
+            <p>The commit area consists of a list of up to 7 previously used commit messages, a text
+                box where you can enter a new commit message, and a button to commit your changes to
+                the local repository.</p>
+            <fig id="fig_t1h_mfr_llb">
+                <image href="../img/git-staging-commit-area.png" id="image_sbk_mfr_llb"/>
+            </fig>
+        </section>
+    </conbody>
+</concept>
