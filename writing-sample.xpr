@@ -43,7 +43,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>root.ditamap</String>
+                                    <String>git-client-oxygen-xml-author-setup-user-guide.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -64,6 +64,26 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>src/getting_started.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map PDF - based on XSL-FO - Copy</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>root.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
