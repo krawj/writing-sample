@@ -2,10 +2,8 @@
 <task id="installing_oxygen_author" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Installing the <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/></title>
-    <abstract>The <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/> provides a graphical
-        interface to make interacting with <ph keyref="scm"/> repositories easier than using the
-        command line.<shortdesc>Use <ph keyref="xmlEditor"/>'s built-in add-on manager to install
-            the <ph keyref="scmAddon"/> add-on.</shortdesc></abstract>
+    <shortdesc>Use <ph keyref="xmlEditor"/>'s built-in add-on manager to install the <ph
+            keyref="scmAddon"/> add-on.</shortdesc>
     <taskbody>
         <steps>
             <step>

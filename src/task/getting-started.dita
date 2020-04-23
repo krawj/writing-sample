@@ -2,21 +2,30 @@
 <task id="getting_started" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Getting Started</title>
-    <abstract>
-        <shortdesc/>
-    </abstract>
+    <shortdesc>Learn how to get started with the <ph keyref="scmAddon"/> by completing the following
+        installation and configuration tasks.</shortdesc>
     <taskbody>
         <prereq id="prereq_glb_spd_llb">
             <p>Make sure that:</p>
             <ul id="ul_zck_4nh_llb">
                 <li>You are using <ph keyref="xmlEditor"/> version 20.1 or later. For more
                     information on downloading and installing this software, see <xref
-                        keyref="xmlEditorDownload" format="html" scope="external"/>.</li>
-                <li>You have an active account on <ph keyref="devPlatform"/> or another shared
-                    development platform. If you do not yet have an account, create one or, if you
-                    are part of an organization, request access from your project
-                    administrator.</li>
+                        keyref="urlXmlEditorDownloadPage" format="html" scope="external"/>.</li>
+                <li>You have an active account on a shared development platform such as <ph
+                        keyref="devPlatform"/>. If you do not yet have an account, create one or, if
+                    you are part of an organization, request access from your project administrator
+                    or DevOps team.</li>
             </ul>
         </prereq>
+        <steps id="steps_cnk_zml_llb">
+            <step>
+                <cmd>Install and configure <ph keyref="scm"/> on Windows.</cmd>
+                <info>See <xref href="installing-scm-windows.dita"/>.</info>
+            </step>
+            <step>
+                <cmd>Install the <ph keyref="scmAddon"/> add-on in <ph keyref="xmlEditor"/>.</cmd>
+                <info>See <xref href="installing-xml-editor.dita"/>.</info>
+            </step>
+        </steps>
     </taskbody>
 </task>

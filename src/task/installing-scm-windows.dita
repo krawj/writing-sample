@@ -2,14 +2,13 @@
 <task id="installing_git" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Setting up <ph keyref="scm"/> on Windows</title>
-    <shortdesc>Before installing the <ph keyref="scmAddonView"/> add-on in <ph keyref="xmlEditor"/>,
-        you must download, install, and perform a basic configuration of <ph keyref="scm"/>. If <ph
-            keyref="scm"/> is already installed on your computer, you can skip this
-        task.</shortdesc>
+    <shortdesc>The <ph keyref="scmAddon"/> add-on requires <ph keyref="scm"/> to be installed on
+        your machine. Unless <ph keyref="scm"/> is already installed, you must install it and
+        complete a basic configuration.</shortdesc>
     <taskbody>
         <steps>
             <step>
-                <cmd>Go to <xref keyref="vc-url"/> and select <uicontrol>Windows</uicontrol>.</cmd>
+                <cmd>Go to <xref keyref="urlGitDownloadPage"/> and select <uicontrol>Windows</uicontrol>.</cmd>
                 <stepresult>The download of the installer file starts automatically. Depending on
                     your browser's settings, you may need to confirm the download.</stepresult>
             </step>
