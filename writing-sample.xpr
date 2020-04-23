@@ -426,8 +426,11 @@
     </meta>
     <projectTree name="writing-sample.xpr">
         <folder masterFiles="true" name="Master Files">
+            <file name="src/about-the-git-client-add-on.ditamap"/>
             <file name="src/getting_started.ditamap"/>
             <file name="git-client-oxygen-xml-author-setup-user-guide.ditamap"/>
+            <file name="src/keys.ditamap"/>
+            <file name="src/using-the-git-staging-addon.ditamap"/>
         </folder>
         <folder path="."/>
     </projectTree>
