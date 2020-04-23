@@ -38,8 +38,14 @@
             </fig>
         </section>
         <section id="section_pqc_xwr_llb">
-            <title>Commit content</title>
-            <p/>
+            <title>Committed changes</title>
+            <p>The committed changes panel displays a list of all the changes introduced by the
+                currently selected commit. Each file listed in this panel is supplied with an
+                additional status icons to indicate the type of the change (addition, modification,
+                or deletion).</p>
+            <p>This panel also provides per-file context menu actions to compare the selected
+                version with the previous version or the version currently present in your working
+                copy.</p>
             <fig id="fig_jwz_kxr_llb">
                 <image keyref="imgGitHistoryCommitContent" id="image_izd_lxr_llb"/>
             </fig>

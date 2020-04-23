@@ -23,8 +23,8 @@
                 and decide which of those changes to include in your next commit. Each file listed
                 in this area is supplied with an additional status icons to indicate the type of the
                 change (addition, modification, or deletion).</p>
-            <p>Additionally, the staging area provides per-file context menu actions such as
-                discarding changes, blame, comparison, and conflict resolution options.</p>
+            <p>This area also provides per-file context menu actions such as discarding changes,
+                blame, comparison, and conflict resolution options.</p>
             <fig id="fig_xrf_hfr_llb">
                 <image keyref="imgGitStaging" id="image_ft3_hfr_llb" align="center"/>
             </fig>
