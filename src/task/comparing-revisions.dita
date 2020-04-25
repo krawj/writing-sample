@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="comparing_revisions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Comparing your changes with the latest commit</title>
+    <shortdesc>You can use the built-in Compare Files tool to compare the uncommitted changes in
+        your working copy with the revision from the most recent commit.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Choose one of the following actions:</cmd>
+                <choices id="choices_rfx_scz_llb">
+                    <choice>Double-click a file in the staging area.</choice>
+                    <choice>Right-click a file and select <uicontrol>Open in compare
+                            editor</uicontrol>.</choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>
