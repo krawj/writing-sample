@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="comparing_changes_in_the_working_copy_with_a_past_commit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Comparing a commited revision with the working copy</title>
+    <shortdesc>You can see the difference between the version of a file in your working copy and one
+        of the previously commited versions.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>From the <wintitle keyref="phStagingView"/> view, open the history of the
+                    current branch or one of the files in the staging area.</cmd>
+            </step>
+            <step>
+                <cmd>In the commit log, select the commit that you want to see the details of.</cmd>
+            </step>
+            <step>
+                <cmd>In the list of commited changes, right-click a file and select
+                        <uicontrol>Compare with working copy version.</uicontrol></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

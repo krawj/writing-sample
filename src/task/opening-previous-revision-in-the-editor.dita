@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="opening_a_previous_revision_in_the_editor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Opening a previous revision in the editor</title>
+    <shortdesc>You can inspect the content of a previously commited file by opening  it in a new
+        read-only editor tab.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>From the <wintitle keyref="phStagingView"/> view, open the history of the
+                    current branch or one of the files in the staging area.</cmd>
+            </step>
+            <step>
+                <cmd>In the commit log panel, select the commit that you want to see the details
+                    of.</cmd>
+            </step>
+            <step>
+                <cmd>In the commited changes panel, right click-click a file and click
+                        <uicontrol>Open</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

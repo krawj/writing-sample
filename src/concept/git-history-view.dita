@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="git_history_view" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+    <title><ph keyref="phHistoryView"/> view</title>
+    <shortdesc>The <wintitle keyref="phHistoryView"/> view displays a complete log of changes
+        commited to the current branch with detailed information about each commit.</shortdesc>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="comparing_changes_between_commits" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>Comparing revisions between commits</title>
+    <shortdesc>To see what exactly changed between two previously commited versions of a file, you
+        can compare the version in the currently selected commit with its previous
+        version.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>From the <wintitle keyref="phStagingView"/> view toolbar, open the history of
+                    the current branch.</cmd>
+            </step>
+            <step>
+                <cmd>In the commit log, select the commit that you want to see the details of.</cmd>
+            </step>
+            <step>
+                <cmd>In the list of commited changes, right click-click a file and click
+                        <uicontrol>Compare with previous version</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

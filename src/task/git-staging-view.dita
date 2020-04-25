@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="using_the_git_staging_add_on" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+    <title><ph keyref="phStagingView"/> view</title>
+    <shortdesc>The <wintitle keyref="phStagingView"/> view allows you to interact with <ph
+            keyref="phVcs"/> repositories directly <ph keyref="phXmlEditor"/> by providing you with
+        quick access to actions such as clone, stage, commit, push, and more.</shortdesc>
+</concept>

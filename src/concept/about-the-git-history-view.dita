@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concept id="about_the_git_history_view" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
-    <title>Git History view</title>
-    <shortdesc>The <wintitle>Git History</wintitle> view displays a complete log of the changes
-        commited to the current branch with detailed information about each commit. Apart from
-        displaying the history of an entire branch, you can also use this view to see the history of
-        a file listed in the staging area.</shortdesc>
+    <title>About the <ph keyref="phHistoryView"/> view</title>
+    <shortdesc>The view is divided into three main panels to provide a clear overview of the history
+        of a branch or a file. By default, the view appears docked to the bottom of the <ph
+            keyref="phXmlEditor"/> window.</shortdesc>
     <conbody>
-        <p>You can open the <wintitle>Git History</wintitle> view by using the <uicontrol>Show
-                current branch history</uicontrol> toolbar action or by selecting the
-                <uicontrol>Show history</uicontrol> and <uicontrol>Show blame</uicontrol> context
-            menu actions in on a file in the staging area.</p>
-        <p>The view is divided into three main panels to provide a clear overview of the history of
-            a branch or a file. By default, the view appears docked to the bottom of the <ph
-                keyref="xmlEditor"/> window.</p>
+        <p>You can open the <wintitle keyref="phHistoryView"/> view from the <wintitle
+                keyref="phHistoryView"/> toolbar or by using the <uicontrol>Show history</uicontrol>
+            and <uicontrol>Show blame</uicontrol> context menu actions on a file in the staging
+            area.</p>
+        <p/>
         <section id="section_pfp_vvr_llb">
             <title>Commit log</title>
-            <p>The commit log panel lists all the commits added to the current branch with
-                additional information about the exact date and time when the changes were commited,
-                the author of the commit, and short hash. By default, the log is sorted by date in
-                descending order.</p>
+            <p>The commit log panel lists all commits added to the current branch with additional
+                information about the exact date and time when the changes were commited, the author
+                of the commit, and short hash. The log is sorted by date in descending order.</p>
             <p>If there are uncommited changes, they appear as a separate entry at the top of the
                 list.</p>
             <fig id="fig_jg1_4xr_llb">
+                <title>Commit log</title>
                 <image keyref="imgGitHistoryLog" id="image_qwh_pxr_llb"/>
             </fig>
         </section>
@@ -34,19 +31,20 @@
                 the change author's full name and email address, the exact date and time when the
                 commit was added, and the full text of the commit message.</p>
             <fig id="fig_jrq_2xr_llb">
+                <title>Commit details</title>
                 <image keyref="imgGitHistoryDetails" id="image_iyl_2xr_llb"/>
             </fig>
         </section>
         <section id="section_pqc_xwr_llb">
             <title>Committed changes</title>
-            <p>The committed changes panel displays a list of all the changes introduced by the
-                currently selected commit. Each file listed in this panel is supplied with an
-                additional status icons to indicate the type of the change (addition, modification,
-                or deletion).</p>
+            <p>The list of committed changes panel displays changes introduced by the currently
+                selected commit. Each file listed in this panel is supplied with additional status
+                icons to indicate the type of the change (addition, modification, or deletion).</p>
             <p>This panel also provides per-file context menu actions to compare the selected
                 version with the previous version or the version currently present in your working
                 copy.</p>
             <fig id="fig_jwz_kxr_llb">
+                <title>List of commited changes</title>
                 <image keyref="imgGitHistoryCommitContent" id="image_izd_lxr_llb"/>
             </fig>
         </section>

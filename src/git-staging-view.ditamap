@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
+    <title>Git Staging view</title>
+    <topicref href="task/git-staging-view.dita" collection-type="unordered" linking="normal">
+        <topicref href="concept/about-the-git-staging-view.dita"/>
+        <topicref href="task/cloning-a-repository.dita"/>
+        <topicref href="task/changing-the-current-branch.dita"/>
+        <topicref href="task/changing-the-current-working-copy.dita"/>
+        <topicref href="task/pulling-updates-from-the-remote-repository.dita"/>
+        <topicref href="task/staging-and-committing-changes.dita"/>
+        <topicref href="task/pushing-commits-to-the-remote-repository.dita"/>
+        <topicref href="task/discarding-your-changes.dita"/>
+        <topicref href="task/viewing-branch-or-file-history.dita"/>
+        <topicref href="task/comparing-changes-with-the-latest-commit.dita"/>
+        <topicref href="task/resolving-conflicts.dita"/>
+    </topicref>
+</map>

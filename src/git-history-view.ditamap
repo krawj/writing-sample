@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd" linking="none">
+    <title>Git History view</title>
+    <topicref href="concept/git-history-view.dita" linking="normal" collection-type="unordered">
+        <topicref href="concept/about-the-git-history-view.dita"/>
+        <topicref href="task/opening-previous-revision-in-the-editor.dita"/>
+        <topicref href="task/comparing-revisions-between-commits.dita"/>
+        <topicref href="task/comparing-committed-revisions-witth-the-working-copy.dita"/>
+    </topicref>
+</map>

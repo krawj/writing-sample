@@ -2,17 +2,73 @@
 <bookmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:bookmap.xsd" linking="none">
     <booktitle>
-        <mainbooktitle><ph keyref="scmAddon"/> for <ph keyref="xmlEditor"/></mainbooktitle>
+        <mainbooktitle>Git Client for &lt;oXygen/&gt; XML Editor</mainbooktitle>
         <booktitlealt>Setup and User Guide</booktitlealt>
     </booktitle>
+    <bookmeta>
+        <author>Jacek Krawczyk</author>
+        <authorinformation>
+            <personinfo>
+                <emailaddresses>
+                    <emailaddress>j.krawczyk@outlook.com</emailaddress>
+                </emailaddresses>
+            </personinfo>
+        </authorinformation>
+        <critdates>
+            <created date="2020-04-20"/>
+            <revised modified="2020-04-25"/>
+        </critdates>
+    </bookmeta>
     <frontmatter>
         <mapref href="src/keys.ditamap"/>
         <booklists>
             <toc/>
+            <figurelist/>
         </booklists>
         <topicref href="src/concept/about-this-manual.dita"/>
     </frontmatter>
     <chapter href="src/about-the-git-client-add-on.ditamap" format="ditamap"/>
-    <chapter href="src/getting_started.ditamap" format="ditamap"/>
-    <chapter href="src/using-the-git-staging-addon.ditamap" format="ditamap"/>
+    <chapter href="src/quick-start.ditamap" format="ditamap"/>
+    <chapter href="src/git-staging-view.ditamap" format="ditamap"/>
+    <chapter href="src/git-history-view.ditamap" format="ditamap"/>
+    <reltable title="Related links" linking="normal">
+        <relrow>
+            <relcell>
+                <topicref href="src/task/resolving-conflicts.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="src/task/staging-and-committing-changes.dita" linking="targetonly"/>
+                <topicref href="src/task/pushing-commits-to-the-remote-repository.dita"
+                    linking="targetonly"/>
+                <topicref href="src/task/pulling-updates-from-the-remote-repository.dita"
+                    linking="sourceonly"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="src/task/viewing-branch-or-file-history.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="src/task/comparing-revisions-between-commits.dita"/>
+                <topicref
+                    href="src/task/comparing-committed-revisions-witth-the-working-copy.dita"/>
+                <topicref href="src/task/opening-previous-revision-in-the-editor.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="src/task/comparing-changes-with-the-latest-commit.dita"/>
+            </relcell>
+            <relcell>
+                <topicref
+                    href="src/task/comparing-committed-revisions-witth-the-working-copy.dita"/>
+                <topicref href="src/task/comparing-revisions-between-commits.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell/>
+            <relcell/>
+        </relrow>
+        <relrow/>
+    </reltable>
 </bookmap>

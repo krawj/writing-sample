@@ -33,6 +33,15 @@
             </keywords>
         </topicmeta>
     </keydef>
+    <keydef
+        href="https://www.oxygenxml.com/doc/versions/22.0/ug-author/topics/file-comparison-2.html"
+        format="html" scope="external" keys="urlXmlEditorCompareFiles">
+        <topicmeta>
+            <keywords>
+                <keyword>Compare Files Tool</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
     <keydef href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html" format="html"
         scope="external" keys="urlXmlEditorDownloadPage">
         <topicmeta>
@@ -56,31 +65,38 @@
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="xmlEditor">
+    <keydef keys="phXmlEditor">
         <topicmeta>
             <keywords>
-                <keyword>&lt;oXygen/&gt; XML Author/Editor/Developer</keyword>
+                <keyword>Oxygen XML Editor</keyword>
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="scm">
+    <keydef keys="phVcs">
         <topicmeta>
             <keywords>
                 <keyword>Git</keyword>
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="scmAddon">
+    <keydef keys="phProduct">
         <topicmeta>
             <keywords>
                 <keyword>Git Client</keyword>
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="scmAddonView">
+    <keydef keys="phStagingView">
         <topicmeta>
             <keywords>
                 <keyword>Git Staging</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="phHistoryView">
+        <topicmeta>
+            <keywords>
+                <keyword>Git History</keyword>
             </keywords>
         </topicmeta>
     </keydef>

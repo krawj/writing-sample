@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
+    <title>Quick start</title>
+    <topicref href="task/quick-start.dita" collection-type="sequence" linking="normal">
+        <topicref href="task/setting-up-git-on-windows.dita"/>
+        <topicref href="task/installing-the-git-client-for-oxygen.dita"/>
+    </topicref>
+</map>
