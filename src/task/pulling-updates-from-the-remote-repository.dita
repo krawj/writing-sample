@@ -2,31 +2,38 @@
 <task id="getting_updates_from_the_remote_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Pulling updates from the remote repository</title>
-    <shortdesc>The <ph keyref="scmAddon"/> add-on supports pulling from remote branches using either
-        the pull and merge or the pull and rebase strategy. The default <ph keyref="scm"/> pull
-        strategy is pull and merge. </shortdesc>
+    <shortdesc>The <ph keyref="phProduct"/> add-on supports pulling updates from remote branches
+        using either the pull and merge or the pull and rebase strategy. The default setting is pull
+        and merge. </shortdesc>
     <taskbody>
         <prereq id="prereq_sr3_qd3_llb">
-            <p>Make sure that the current working copy is set to an initialized <ph keyref="scm"/>
-                repository.</p>
+            <p>Ensure that your current local branch is set up to track a remote branch and that you
+                do not have any uncommitted changes.</p>
         </prereq>
-        <steps-unordered>
+        <steps>
             <step>
-                <cmd>To pull from the upstream branch using the default strategy, click the
-                        <uicontrol>Pull from
-                        <varname>remote</varname>/<varname>branch</varname></uicontrol> icon.</cmd>
-                <info><image keyref="imgGitStagingPull" id="image_em1_blq_llb"/></info>
+                <cmd>Perform one of the following actions:</cmd>
+                <choices id="choices_s5n_ps2_mlb">
+                    <choice>To pull from the upstream branch using the default strategy, click the
+                            <uicontrol>Pull from
+                            <varname>remote</varname>/<varname>branch</varname></uicontrol>
+                            icon.<fig id="fig_c2v_ps2_mlb">
+                            <title>Pull from
+                                <varname>remote</varname>/<varname>branch</varname></title>
+                            <image keyref="imgGitStagingPull" id="image_em1_blq_llb"/>
+                        </fig></choice>
+                    <choice>To change the pull strategy, expand the <uicontrol>Pull</uicontrol> menu
+                        and select either <uicontrol>Pull (merge)</uicontrol> or <uicontrol>Pull
+                            (rebase)</uicontrol>.<fig id="fig_ujl_ts2_mlb">
+                            <title>Pull options</title>
+                            <image keyref="imgGitStagingPullType" id="image_xwy_5kq_llb"/>
+                        </fig></choice>
+                </choices>
             </step>
-            <step>
-                <cmd>To change the pull strategy, expand the <uicontrol>Pull</uicontrol> menu and
-                    select either <uicontrol>Pull (merge)</uicontrol> or <uicontrol>Pull
-                        (rebase)</uicontrol>.</cmd>
-                <info><image keyref="imgGitStagingPullType" id="image_xwy_5kq_llb"/></info>
-            </step>
-        </steps-unordered>
+        </steps>
         <result id="result_qg5_1rq_llb">
-            <p>If the pull was successful, your current local branch is now up-to-date with the
-                upstream branch.</p>
+            <p>If no conflicts occur, your current local branch is now up-to-date with the upstream
+                branch.</p>
         </result>
     </taskbody>
 </task>

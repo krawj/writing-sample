@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concept id="about_the_scm_add_on" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
-    <title>About the <ph keyref="scmAddon"/> add-on</title>
+    <title>About the <ph keyref="phProduct"/> add-on</title>
     <abstract>
-        <shortdesc>The <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/> provides a basic
-            graphical interface to interact with <ph keyref="scm"/> repositories, and reduces the
-            amount of context switching between your editor and the <ph keyref="scm"/> command line
-            or another client application.</shortdesc>
-        <note>The add-on requires <ph keyref="xmlEditor"/> version 20.1 or later.</note>
+        <shortdesc>The <ph keyref="phProduct"/> add-on for <ph keyref="phXmlEditor"/> version 20.1
+            or later provides a basic graphical interface to interact with <ph keyref="phVcs"/>
+            repositories, and reduces the amount of context switching between your editor and the
+                <ph keyref="phVcs"/> command line or another client application.</shortdesc>
     </abstract>
     <conbody>
-        <p>With the <ph keyref="scmAddon"/> add-on you can:</p>
+        <p>With the <ph keyref="phProduct"/> add-on, you can:</p>
         <ul id="ul_g51_pjr_llb">
             <li>Clone a new repository</li>
             <li>Stage and commit changes locally</li>
             <li>Push changes to a remote branch</li>
             <li>Pull updates from a remote branch</li>
             <li>Discard unwanted changes</li>
-            <li>Interact with <ph keyref="scm"/> submodules</li>
-            <li>Preview the history of a branch or file</li>
+            <li>Interact with <ph keyref="phVcs"/> submodules</li>
+            <li>View change history and compare files between revisions</li>
             <li>Resolve conflicts</li>
         </ul>
-        <p>When you install the <ph keyref="scmAddon"/> add-on, the <ph keyref="scmAddonView"/> and
-            Git History views become available in Author Mode. For more information about Author
-            Mode views, see the <xref keyref="oxygenAuthorViews" format="html" scope="external"/>
-            help topic.</p>
+        <p>When you install the <ph keyref="phProduct"/> add-on, the <ph keyref="phStagingView"/> and
+                <ph keyref="phHistoryView"/> views become available in Author Mode. For more
+            information about Author Mode views, see the <ph keyref="phXmlEditor"/>
+            <xref keyref="oxygenAuthorViews" format="html" scope="external"/> help topic.</p>
     </conbody>
 </concept>

@@ -2,23 +2,26 @@
 <task id="cloning_a_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Cloning a repository</title>
-    <shortdesc>Cloning creates a local copy of a remote repository stored on a shared development
-        platform such as <ph keyref="devPlatform"/>. </shortdesc>
+    <shortdesc>Cloning creates a local copy of a remote repository on your local drive. </shortdesc>
     <taskbody>
         <steps>
             <step>
-                <cmd>In the toolbar, click <uicontrol>Clone new repository</uicontrol>.</cmd>
-                <info><image href="../img/git-staging-clone-action.png" id="image_fnd_33q_llb"
-                    /></info>
+                <cmd>In the toolbar, click <uicontrol>Clone new repository</uicontrol> icon.</cmd>
+                <info>
+                    <fig id="fig_uxj_n52_mlb">
+                        <title>Clone new repository</title>
+                        <image href="../img/git-staging-clone-action.png" id="image_fnd_33q_llb"/>
+                    </fig>
+                </info>
             </step>
             <step>
-                <cmd>In the Enter the repository URL.</cmd>
+                <cmd>Enter the URL of the repository that you want to clone.</cmd>
             </step>
             <step>
-                <cmd>In the <uicontrol>Checkout branch</uicontrol> drop-down list, keep the default
-                    selection or choose a different branch to check out.</cmd>
-                <info>Typically, the default branch for a <ph keyref="scm"/> repository is the
-                        <tt>master</tt> branch.</info>
+                <cmd>From the <uicontrol>Checkout branch</uicontrol> drop-down list, choose the
+                    branch to check out.</cmd>
+                <info>Typically, the default branch for a <ph keyref="phVcs"/> repository is the
+                    “master” branch.</info>
             </step>
             <step>
                 <cmd>Next to the <uicontrol>Destination path</uicontrol> field, click the
@@ -35,7 +38,7 @@
         </steps>
         <result id="result_wbv_rc3_llb">
             <p>The clone is now available under the specified destination path. The <ph
-                    keyref="scmAddon"/> add-on automatically sets the newly cloned repository as the
+                    keyref="phProduct"/> add-on automatically sets the newly cloned repository as the
                 current working copy.</p>
         </result>
     </taskbody>

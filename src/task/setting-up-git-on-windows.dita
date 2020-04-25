@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="installing_git" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Setting up <ph keyref="scm"/> on Windows</title>
-    <shortdesc>The <ph keyref="scmAddon"/> add-on requires <ph keyref="scm"/> to be installed on
-        your machine. Unless <ph keyref="scm"/> is already installed, you must install it and
+    <title>Setting up <ph keyref="phVcs"/> on Windows</title>
+    <shortdesc>The <ph keyref="phProduct"/> add-on requires <ph keyref="phVcs"/> to be installed on
+        your machine. Unless <ph keyref="phVcs"/> is already installed, you must install it and
         complete a basic configuration.</shortdesc>
     <taskbody>
+        <prereq id="prereq_g1j_smz_llb">
+            <p>If you do not already have an account on a shared version control hosting platform,
+                create an account. Alternatively, if you are part of an organization, request access
+                from your project administrator or DevOps team.</p>
+        </prereq>
         <steps>
             <step>
                 <cmd>Go to <xref keyref="urlGitDownloadPage"/> and select <uicontrol>Windows</uicontrol>.</cmd>
@@ -13,8 +18,8 @@
                     your browser's settings, you may need to confirm the download.</stepresult>
             </step>
             <step>
-                <cmd>From your Downloads folder, launch the <ph keyref="scm"/> installation wizard
-                    and complete the process by following the instructions on the screen.</cmd>
+                <cmd>From the Downloads folder, launch the <ph keyref="phVcs"/> installation wizard
+                    and complete the process by following the on-screen instructions.</cmd>
             </step>
             <step>
                 <cmd>When the installation is completed, on the <wintitle>Completing the Git Setup
@@ -22,16 +27,16 @@
                     check box, and click <uicontrol>Next</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>In the Git Bash terminal window, configure your <ph keyref="scm"/> user name
-                    and email address, substituting the variables with your <ph keyref="devPlatform"
-                    /> credentials:</cmd>
+                <cmd>In the Git Bash terminal window, configure your <ph keyref="phVcs"/> user name
+                    and email address by substituting the variables with your <ph
+                        keyref="devPlatform"/> credentials:</cmd>
                 <info>
                     <pre>git config --global --user.name="<varname>First Name</varname> <varname>Last Name</varname>"
 git config --global --user.email="<varname>email@example.com</varname>"</pre>
                 </info>
             </step>
             <step>
-                <cmd>Verify that your name and email were set correctly by listing the user
+                <cmd>Verify that your name and email are set correctly by listing the user
                     configuration settings:</cmd>
                 <info>
                     <pre>git config --list | grep "user"</pre>
@@ -43,6 +48,8 @@ user.email=john.doe@email.com
 </pre></stepxmp>
             </step>
         </steps>
-        <result id="result_zvd_1lh_llb">You now have a basic configuration and can install </result>
+        <result id="result_zvd_1lh_llb">
+            <p><ph keyref="phVcs"/> is now correctly installed and configured.</p>
+        </result>
     </taskbody>
 </task>

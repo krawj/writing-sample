@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="installing_oxygen_author" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Installing the <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/></title>
-    <shortdesc>Use <ph keyref="xmlEditor"/>'s built-in add-on manager to install the <ph
-            keyref="scmAddon"/> add-on.</shortdesc>
+    <title>Installing the <ph keyref="phProduct"/> add-on for <ph keyref="phXmlEditor"/></title>
+    <shortdesc>Use <ph keyref="phXmlEditor"/>'s built-in add-on manager to install the <ph
+            keyref="phProduct"/> add-on.</shortdesc>
     <taskbody>
+        <prereq id="prereq_nrk_qmz_llb">
+            <p>Ensure that you are using <ph keyref="phXmlEditor"/> version 20.1 or later. For more
+                information on downloading and installing this software, see <xref
+                    keyref="urlXmlEditorDownloadPage" format="html" scope="external"/></p>
+        </prereq>
         <steps>
             <step>
-                <cmd>Launch <ph keyref="xmlEditor"/> and, from the main menu, select <menucascade>
+                <cmd>Launch <ph keyref="phXmlEditor"/> and, from the main menu, select <menucascade>
                         <uicontrol>Help</uicontrol>
                         <uicontrol>Install new add-ons</uicontrol>
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>From the <uicontrol>Show add-ons from</uicontrol> drop-down, select
+                <cmd>From the <uicontrol>Show add-ons from</uicontrol> drop-down list, select
                         <uicontrol>Default Update Site</uicontrol> and wait for the list of
                     available add-ons to populate.</cmd>
             </step>
             <step>
-                <cmd>Select the <uicontrol keyref="scmAddon"/> check box and click
+                <cmd>Select the <uicontrol keyref="phProduct"/> check box and click
                         <uicontrol>Next</uicontrol>.</cmd>
             </step>
             <step>
@@ -31,12 +36,12 @@
                     click <uicontrol>Install</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>When the installation is completed, restart <ph keyref="xmlEditor"/>.</cmd>
-                <stepresult>When you restart the application, the <wintitle keyref="scmAddonView"/>
+                <cmd>When the installation is completed, restart <ph keyref="phXmlEditor"/>.</cmd>
+                <stepresult>When you restart the application, the <wintitle keyref="phStagingView"/>
                     view appears on top of your editor window.</stepresult>
             </step>
             <step>
-                <cmd>If the <wintitle keyref="scmAddonView"/> view does not appear, open it from the
+                <cmd>If the <wintitle keyref="phStagingView"/> view does not appear, open it from the
                     main menu by selecting <menucascade>
                         <uicontrol>Window</uicontrol>
                         <uicontrol>Show View</uicontrol>
@@ -44,7 +49,7 @@
             </step>
         </steps>
         <result id="result_ifp_ydd_llb">You can now perform the most critical interactions with
-            local and remote <ph keyref="scm"/> repositories without leaving <ph keyref="xmlEditor"
+            local and remote <ph keyref="phVcs"/> repositories without leaving <ph keyref="phXmlEditor"
             />.</result>
     </taskbody>
 </task>

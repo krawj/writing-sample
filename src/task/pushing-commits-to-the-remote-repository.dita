@@ -2,24 +2,24 @@
 <task id="pushing_changes_to_the_remote_repository" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Pushing commits to the remote repository</title>
-    <shortdesc>If your local branch is set up to track a remote branch and the
-            <uicontrol>Push</uicontrol> button in the <wintitle>Git Staging</wintitle> view toolbar
-        displays a numbered indicator, you can publish your local commits in the remote
-        repository.</shortdesc>
+    <shortdesc>When your local branch is ahead of the remote branch by one or more commits, you can
+        push the new commits to make them available to other contributors.</shortdesc>
     <taskbody>
         <steps>
             <step>
                 <cmd>To publish your changes, in the <wintitle>Git Staging</wintitle> view toolbar,
                     click the <uicontrol>Push to
-                        <varname>remote</varname>/<varname>branch</varname></uicontrol>
-                    button.</cmd>
-                <info><image keyref="imgGitStagingPush" id="image_zpb_jjq_llb"/></info>
+                        <varname>remote</varname>/<varname>branch</varname></uicontrol> icon.</cmd>
+                <info>
+                    <fig id="fig_zdp_jt2_mlb">
+                        <title>Push to <varname>remote</varname>/<varname>branch</varname></title>
+                        <image keyref="imgGitStagingPush" id="image_zpb_jjq_llb"/>
+                    </fig>
+                </info>
             </step>
         </steps>
         <result id="result_bgf_zzk_llb">
-            <p>If the push was successful, the numbered indicator disappears. This means that your
-                local branch and its remote counterpart are now both up-to-date and other
-                contributors can now pull your updates.</p>
+            <p>If the push was successful, your local and remote branches are now up-to-date. </p>
         </result>
     </taskbody>
 </task>

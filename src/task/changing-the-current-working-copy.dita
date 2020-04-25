@@ -3,32 +3,32 @@
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Changing the current working copy</title>
     <shortdesc>You can choose between previously used working copies or use the file browser to
-        select one stored at a different location on your local drive.</shortdesc>
+        select a copy stored at a different location on your local drive.</shortdesc>
     <taskbody>
-        <context id="context_ipn_z1r_llb">
-            <note>You can safely switch between working copies without changing <ph
-                    keyref="xmlEditor"/> project files and even if your current working copy
-                contains unstaged changes.</note>
-        </context>
-        <steps-unordered>
+        <steps>
+            <stepsection>
+                <note>You can safely switch between working copies without changing <ph
+                        keyref="phXmlEditor"/> project files and even if your current working copy
+                    contains unstaged changes.</note>
+            </stepsection>
             <step>
-                <cmd>If you want to select a previous working copy, click the <uicontrol>Working
-                        copy</uicontrol> drop-down list and select the working copy that you want to
-                    use.</cmd>
-            </step>
-            <step>
-                <cmd>If you want to browse to a different working copy stored on your local drive,
-                    do the following:</cmd>
+                <cmd>Select a previously used working copy from the <uicontrol>Working
+                        copy</uicontrol> drop-down list or browse for a working copy on your local
+                    drive by completing the following actions:</cmd>
                 <substeps id="substeps_egq_vjl_llb">
                     <substep>
-                        <cmd>In the <ph keyref="scmAddonView"/> view, click <uicontrol>Browse File
-                                System</uicontrol> next to the <uicontrol>Working Copy</uicontrol>
-                            drop-down list.</cmd>
-                        <info><image keyref="imgGitStagingBrowse" id="image_jsg_wmq_llb"/></info>
+                        <cmd>In the <ph keyref="phStagingView"/> view, click the <uicontrol>Browse
+                                File System</uicontrol> icon.</cmd>
+                        <info>
+                            <fig id="fig_ikt_dv2_mlb">
+                                <title>Browse File System</title>
+                                <image keyref="imgGitStagingBrowse" id="image_jsg_wmq_llb"/>
+                            </fig>
+                        </info>
                     </substep>
                     <substep>
                         <cmd>In the <wintitle>Choose</wintitle> window, navigate to an existing
-                            local clone of a <ph keyref="scm"/> repository and click
+                            local clone of a <ph keyref="phVcs"/> repository and click
                                 <uicontrol>Choose</uicontrol>.</cmd>
                     </substep>
                     <substep>
@@ -38,6 +38,6 @@
                     </substep>
                 </substeps>
             </step>
-        </steps-unordered>
+        </steps>
     </taskbody>
 </task>

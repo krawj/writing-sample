@@ -2,26 +2,24 @@
 <concept id="intended_audience" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
     <title>About this manual</title>
-    <abstract>
-        <p>The purpose of this manual is to provide a general overview of the features and user
-            interface of the <ph keyref="scmAddon"/> add-on for <ph keyref="xmlEditor"/> supplied
-            with detailed initial setup and daily usage instructions.</p>
-    </abstract>
+    <shortdesc>The purpose of this manual is to provide a general overview of the <ph
+            keyref="phProduct"/> add-on for <ph keyref="phXmlEditor"/> with detailed initial setup and
+        daily usage instructions.</shortdesc>
     <conbody>
         <section id="section_jyl_lsq_llb">
             <title>Intended Audience</title>
             <p>The primary intended audience are technical content developers with experience in
                 development of XML-based documentation formats such as DITA or DocBook in <ph
-                    keyref="xmlEditor"/> and at least basic working knowledge of <ph keyref="scm"/>
-                and distributed version control hosting platforms such as GitHub, GitLab, or
-                Bitbucket.</p>
+                    keyref="phXmlEditor"/>. Basic working knowledge of <ph keyref="phVcs"/> and
+                distributed version control hosting platforms such as GitHub, GitLab, or Bitbucket
+                is recommended.</p>
         </section>
         <section id="section_zy3_mfs_llb">
-            <title>Disclaimer</title>
-            <p>Explanations of the concepts behind <ph keyref="scm"/> as a distributed version
-                control system and version control hosting platforms are not included. If you want
-                to learn more about these topics, see the documentation provided by the specific
-                software vendors.</p>
+            <title>Disclaimers</title>
+            <p>Explanations of the concepts behind <ph keyref="phVcs"/> as a distributed version
+                control system and version control hosting platforms such as GitHub, GitLab, or
+                Bitbucket are not included. If you want to learn more about these topics, see the
+                documentation provided by the specific software vendors.</p>
         </section>
     </conbody>
 </concept>

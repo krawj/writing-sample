@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<task id="resolving_conflicts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+<task id="resolving_conflicts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Resolving conflicts</title>
-    <shortdesc></shortdesc>
+    <shortdesc>When the changes you pulled from a remote branch compete with the changes in your
+        working copy,  <ph keyref="phVcs"/> reports a conflict. You can resolve a conflict
+        automatically or by using the Comparison Tool.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
         <steps>
             <step>
-                <cmd></cmd>
+                <cmd>If you want to resolve conflicts automatically by choosing one version over the
+                    other, right-click a conflicted file and select one of the following
+                    options:</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 2*" id="choicetable_r4g_cyy_llb">
+                    <chhead>
+                        <choptionhd>Option</choptionhd>
+                        <chdeschd>Description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption><uicontrol>Resolve using Mine</uicontrol></choption>
+                        <chdesc>Replaces the version from the remote repository with the version in
+                            your local working copy.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><uicontrol>Resolve using Theirs</uicontrol></choption>
+                        <chdesc>Replaces the version in your local working copy with the version
+                            from the remote repository.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><uicontrol>Mark as resolved</uicontrol></choption>
+                        <chdesc>Marks the conflict as resolved without changing the content of the
+                            file.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>If you want to resolve the conflict manually, double-click a conflicted file
+                    and use the Comparison Tool to selectively amend each line.</cmd>
+            </step>
+            <stepsection>When all the reported conflicts are resolved, you can publish the resolved
+                files in the remote repository:</stepsection>
+            <step>
+                <cmd>If you pulled the changes by using the <uicontrol>Pull (merge)</uicontrol>
+                    action, complete the following actions:</cmd>
+                <substeps id="substeps_p4b_v1z_llb">
+                    <substep>
+                        <cmd>Stage the resolved file for a commit.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Enter a meaningful commit message and commit the change.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Push the commit to the remote repository.</cmd>
+                    </substep>
+                </substeps>
+                <info>If you want to discard your resoltion, you can use the
+                        <uicontrol>Discard</uicontrol> context menu action on a file and repeat the
+                    previous steps.</info>
+            </step>
+            <step>
+                <cmd>If you pulled the changes by using the <uicontrol>Pull (rebase)</uicontrol>
+                    action, click the <uicontrol>Continue rebase</uicontrol> button.</cmd>
+                <info>If you want to discard your resolution, you can click the <uicontrol>Abort
+                        rebase</uicontrol> button and repeat the previous steps.</info>
             </step>
         </steps>
     </taskbody>

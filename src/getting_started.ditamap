@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:map.xsd">
+    <title>Quick start</title>
+    <topicref href="task/getting-started.dita" collection-type="sequence" linking="normal">
+        <topicref href="task/installing-scm-windows.dita"/>
+        <topicref href="task/installing-xml-editor.dita"/>
+    </topicref>
+</map>

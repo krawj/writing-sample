@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <task id="viewing_branch_history" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
-    <title>Viewing the history of a branches and files</title>
+    <title>Viewing the history of branches and files</title>
     <shortdesc>At some point in the development cycle, you may want to see exactly when and by whom
-        specific changes were introduced. The <ph keyref="scmAddon"/> add-on lets you preview the
-        history of the current branch or a modified file listed in the staging area.</shortdesc>
+        specific changes were introduced. You can see the history of the current branch or a
+        modified file listed in the staging area.</shortdesc>
     <taskbody>
-        <steps-unordered>
+        <steps>
             <step>
-                <cmd>To view the history of the entire branch, in the <wintitle>Git
-                        Staging</wintitle> view toolbar, click <uicontrol>Show current branch
-                        history</uicontrol> button.</cmd>
-                <info><image keyref="imgGitStagingBranchHistory" id="image_dvc_kyq_llb"/></info>
+                <cmd>Perform one of the following actions:</cmd>
+                <choices id="choices_i4l_xfz_llb">
+                    <choice>View the history of the current branch by clicking the <uicontrol>Show
+                            current branch history</uicontrol> icon in the toolbar.<fig
+                            id="fig_qpz_fgz_llb">
+                            <title>Show current branch history</title>
+                            <image keyref="imgGitStagingBranchHistory" id="image_dvc_kyq_llb"/>
+                        </fig></choice>
+                    <choice>View the history of a specific file by right-clicking a file in the
+                        staging area and selecting <uicontrol>Show history</uicontrol>.</choice>
+                    <choice>View the history of a specific file with per-author color-coded
+                        higlighting by right-clicking a file in the staging area and selecting
+                            <uicontrol>Show blame</uicontrol>.</choice>
+                </choices>
             </step>
             <step>
-                <cmd>To view the history for a specific file, right-click a staged or an unstaged
-                    file and select <uicontrol>Show history</uicontrol>.</cmd>
+                <cmd>If you are viewing the history of the current branch, in the commited changes
+                    panel of the <wintitle>Git History</wintitle> view, right-click a file and
+                    choose one of the following options:</cmd>
+                <choicetable frame="all" relcolwidth="1* 2*" id="choicetable_vv3_tgz_llb">
+                    <chhead>
+                        <choptionhd>Option</choptionhd>
+                        <chdeschd>Description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption><uicontrol>Compare with previous version</uicontrol></choption>
+                        <chdesc>Displays a comparison between the version in the selected commit and
+                            the previously committed version.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><uicontrol>Compare with working copy
+                            version</uicontrol></choption>
+                        <chdesc>Displays a comparison between the version in the selected commit and
+                            the version in your working copy.</chdesc>
+                    </chrow>
+                </choicetable>
             </step>
-            <step>
-                <cmd>To view the history for a specific file with line-by-line change highlighting,
-                    right-click a staged or an unstaged file and select <uicontrol>Show
-                        blame</uicontrol>.</cmd>
-            </step>
-        </steps-unordered>
+        </steps>
     </taskbody>
 </task>

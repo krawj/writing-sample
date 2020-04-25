@@ -2,8 +2,8 @@
 <task id="staging_and_committing_changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
     <title>Staging and committing changes</title>
-    <shortdesc><ph keyref="scm"/> keeps track of all the changes you make to the content of your
-        local repository. You can use the <ph keyref="scmAddonView"/> view to stage and commit your
+    <shortdesc><ph keyref="phVcs"/> keeps track of all the changes you make to the content of your
+        local repository. You can use the <ph keyref="phStagingView"/> view to stage and commit your
         updates to the local repository.</shortdesc>
     <taskbody>
         <steps>
@@ -11,16 +11,19 @@
                 <cmd>In the <wintitle>Unstaged files</wintitle> area, choose the changes that you
                     want to stage by performing one of the following actions:</cmd>
                 <choices id="choices_ulh_4j3_llb">
-                    <choice>To stage all the listed files, click <uicontrol>Stage
+                    <choice>Stage all the listed files by clicking <uicontrol>Stage
                         All</uicontrol>.</choice>
-                    <choice>To stage one or more files selectively, select the file or files and
-                        click <uicontrol>Stage Selected</uicontrol>.</choice>
+                    <choice>Selectively stage one or more files by selecting the file or files and
+                        clicking <uicontrol>Stage Selected</uicontrol>.</choice>
                 </choices>
             </step>
             <step>
-                <cmd>In the <wintitle>Commit message</wintitle> area, use the text box to provide a
-                    meaningful commit message or use the drop-down list to choose a previously used
-                    commit.</cmd>
+                <cmd>In the <wintitle>Commit message</wintitle> area, perform one of the following
+                    actions:</cmd>
+                <choices id="choices_o4s_gt2_mlb">
+                    <choice>Enter a new commit message in the text box.</choice>
+                    <choice>Select a previously used commit from the drop-down list.</choice>
+                </choices>
             </step>
             <step>
                 <cmd>Click <uicontrol>Commit</uicontrol>.</cmd>
