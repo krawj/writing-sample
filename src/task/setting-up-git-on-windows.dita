@@ -28,8 +28,8 @@
             </step>
             <step>
                 <cmd>In the Git Bash terminal window, configure your <ph keyref="phVcs"/> user name
-                    and email address by substituting the variables with your <ph
-                        keyref="devPlatform"/> credentials:</cmd>
+                    and email address by substituting the variables with your hosting platform
+                    credentials:</cmd>
                 <info>
                     <pre>git config --global --user.name="<varname>First Name</varname> <varname>Last Name</varname>"
 git config --global --user.email="<varname>email@example.com</varname>"</pre>

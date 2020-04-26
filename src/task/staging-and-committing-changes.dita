@@ -8,14 +8,22 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>In the <wintitle>Unstaged files</wintitle> area, choose the changes that you
-                    want to stage by performing one of the following actions:</cmd>
+                <cmd>In the staging area, choose the changes that you want to stage by performing
+                    one of the following actions:</cmd>
                 <choices id="choices_ulh_4j3_llb">
                     <choice>Stage all the listed files by clicking <uicontrol>Stage
                         All</uicontrol>.</choice>
                     <choice>Selectively stage one or more files by selecting the file or files and
                         clicking <uicontrol>Stage Selected</uicontrol>.</choice>
                 </choices>
+                <info>
+                    <note type="tip">You can change the way files in the staging area are displayed
+                        by clicking the <uicontrol>Switch to tree/list view</uicontrol> icon.<fig
+                            id="fig_t52_51m_mlb">
+                            <title>Switch to tree/list view</title>
+                            <image keyref="imgGitStagingTreeView" id="image_bs1_51m_mlb"/>
+                        </fig></note>
+                </info>
             </step>
             <step>
                 <cmd>In the <wintitle>Commit message</wintitle> area, perform one of the following
