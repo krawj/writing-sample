@@ -4,7 +4,7 @@ This repository contains the DITA source for a manual on getting started with th
 
 ## Output customizations
 
-The project is configured to build basic PDF output through the **org.dita.pdf2** plugin with several minor customizations. The `custom/fo/attrs` and `custom/fo/xsl` directories contain contains several `.xsl` stylesheet files that override the default XSL-FO processing steps and styling attributes to change the page size, remove the blank page after each chapter, and more. 
+The project is configured to build basic PDF output through the **org.dita.pdf2** plugin with several minor customizations. The `custom/fo/attrs` and `custom/fo/xsl` directories contain several `.xsl` stylesheet files that override the default XSL-FO processing steps and styling attributes to change the page size, remove the blank page after each chapter, and more. 
 
 ## Building the default output
 
