@@ -6,7 +6,7 @@ This repository contains the DITA source for a manual on getting started with th
 
 The project is configured to build basic PDF output through the **org.dita.pdf2** plugin with several minor customizations. The `custom/fo/attrs` and `custom/fo/xsl` directories contain contains several `.xsl` stylesheet files that override the default XSL-FO processing steps and styling attributes to change the page size, remove the blank page after each chapter, and more. 
 
-## Buidling the default output
+## Building the default output
 
 To build the output as-is, you need a version of Oxygen XML Editor that comes pre-bundled with DITA Open Tolkit 3.x or you need to configure Oxygen to use a custom DITA OT instance. 
 
